@@ -1,0 +1,212 @@
+.heade-body {
+    background: #fcc539;
+    font-family: "Microsoft JhengHei";
+    font-size: 18px;
+}
+.container {
+    width: 1170px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+}
+h1 {
+    font-family: ‘Noto Sans TC’, sans-serif;
+    font-size: 25px;
+    color: #754414;
+    font-weight: bold;
+}
+nav {
+    text-align: center;
+}
+.navbar {
+    background-color: #754414;
+}
+.container-fluid {
+    width: 1170px;
+}
+main {
+    padding: 0px 100px;
+}
+.new {
+    padding: 10px;
+    background-color: #fcc539;
+    border-radius: 10px;
+}
+.news-content {
+    border-radius: 10px;
+    background: #fff;
+    padding: 10px 15px 6px;
+}
+.news-time {
+    float: right;
+    color: black;
+    line-height: 24px;
+}
+.news-title {
+    width: calc(100% - 99px);
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: black;
+}
+.new li {
+    padding: 3px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+    line-height: 24px;
+}
+.more-news {
+    padding: 5px;
+    text-align: center;
+    color: black;
+}
+.more-news a {
+    color: black;
+}
+.more-news i {
+    border: 2px solid #fcc539;
+    border-radius: 50%;
+    padding: 2.5px 3px;
+    width: 25px;
+    height: 25px;
+    margin-right: 2px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.fa-plus:before {
+    content: "+";
+    color: #fcc539;
+    font-weight: bold;
+}
+.new h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+}
+.mgtb-10 {
+    margin: 10px 0px;
+}
+.foodImg {
+    display: flex;
+}
+.appImg {
+    display: block;
+}
+.imgGroup {
+    display: flex;
+}
+.movieImg {
+    display: flex;
+}
+.width1125 {
+    width: 1125px;
+}
+.pd-10 {
+    padding: 10px;
+}
+.mgbt-15 {
+    margin-bottom: 15px;
+}
+.mglt-15 {
+    margin-left: 15px;
+}
+.mgt-10 {
+    margin-top: 10px;
+}
+#footer {
+    background: #ededed;
+    border-top: none;
+    padding: 26px 0 0;
+    font-size: 0.9em;
+    margin-top: 20px;
+}
+.fat-footer {
+    float: left;
+    width: 12%;
+    margin-right: 4px;
+    text-align: center;
+    font-size: 16.2px;
+}
+h3 {
+    font-size: 19.44px;
+    font-weight: 700;
+    color: #164533;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.information {
+    background: #fcc539;
+    padding: 40px 0 0;
+    border-top: 5px solid #fdd000;
+}
+.m {
+    margin-bottom: 100px;
+}
+.container:before {
+    display: table;
+    content: " ";
+}
+.row:before {
+    display: table;
+    content: " ";
+}
+.row:after {
+    clear: both;
+}
+.container:after {
+    clear: both;
+}
+.hover-bg h4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    margin-top: 15px;
+    color: #fff;
+    font-weight: bold;
+    z-index: 10;
+}
+h4 {
+    font-size: 1.6em;
+}
+.hover-bg {
+    position: relative;
+}
+.app-order h4 {
+    line-height: 24px;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: -60px;
+}
+.app-order span {
+    font-size: 2em;
+}
+.hover-story h4 {
+    margin-top: -90px;
+}
+.hover-bg.bg-1:after {
+    background: rgba(64, 30, 31, 0.6);
+}
+.hover-bg:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    transition: all 0.2s ease-in;
+}
